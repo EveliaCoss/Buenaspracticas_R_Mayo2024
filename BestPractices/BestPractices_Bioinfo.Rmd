@@ -174,7 +174,7 @@ Investigadora Posdoctoral en el Laboratorio Internacional de Investigación sobr
 ## Bioinformática se conforma de la computación, biológica, matemáticas y estadística
 
 
-La bioinformática, en relación con la **genética y la genómica**, es una **subdisciplina científica** que implica el uso de **ciencias informáticas** para *recopilar, almacenar, analizar y diseminar datos biológicos*, como secuencias de ADN y aminoácidos o anotaciones sobre esas secuencias [NIH, 2023](https://www.genome.gov/es/genetics-glossary/Bioinformatica). 
+La bioinformática, en relación con la **genética y la genómica** 🔬, es una **subdisciplina científica** que implica el uso de **ciencias informáticas** 📈 para *recopilar, almacenar, analizar y diseminar datos biológicos*, como secuencias de ADN y aminoácidos o anotaciones sobre esas secuencias [NIH, 2023](https://www.genome.gov/es/genetics-glossary/Bioinformatica). 
 
 Uno de sus objetivos es: **Aumentar el entendimiento de la salud y la enfermedad, en ciertos casos, se usan para proveer mejor atención médica** [NIH, 2023](https://www.genome.gov/es/genetics-glossary/Bioinformatica).
 
@@ -184,7 +184,7 @@ NIH: National Human Genome Research Institute
 
 ---
 
-## La bioinformática dentro de la genómica
+## La bioinformática dentro de la genómica 👾
 
 1) **Calidad de los datos**. Paso **FUNDAMENTAL**. Incluye la manipulación y limpieza de los datos. (Temas vistos con Sofia Zorrilla y Maria Jose Palma Martinez; Mayra Fragoso)
 
@@ -223,7 +223,7 @@ class: inverse, center, middle
 
 ---
 
-# Un algoritmo nos permite resolver un problema
+# Un algoritmo nos permite resolver un problema ⭐
 
 Un algoritmo es un método para resolver un problema mediante una serie de pasos **definidos, precisos** y **finitos**.
 
@@ -251,10 +251,10 @@ Con el fin de *previnir retracciones*.
 
 ---
 
-## Código reproducible
+## Código reproducible 🌟
 
 .pull-left[
-### Contenedores:
+### Contenedores ⚡
 
 - [Docker](https://docs.docker.com/) 
 - [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/introduction.html)
@@ -268,7 +268,7 @@ Se puede almacenar todo el workflow, archivos, generando codigo reproducible y c
 
 .pull-right[
 
-### Crear pipelines completos
+### Crear pipelines completos 🌀
 
 - [Nextflow](https://training.nextflow.io/es/)
 - [Snakemake](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
@@ -359,7 +359,7 @@ Más información [Escribiendo buen software](https://swcarpentry.github.io/r-no
 
 ---
 
-## Documentación de funciones
+## Documentación de funciones 💻
 
 ```
 Synthesize image files for testing circularity estimation algorithm.
@@ -386,8 +386,8 @@ Yo uso el ejemplo de la funcion [`suma()`](https://www.rdocumentation.org/packag
 
 ---
 
-# Ejemplo de como documento
-
+# Ejemplo de como realizo mis documentos 💜 
+ 
 Aqui les dejo el script que les doy a mis alumnos [VisualizacionDatos.R](https://github.com/EveliaCoss/RNAseq_classFEB2024/blob/main/Practica_Dia3/scripts/VisualizacionDatos.R) del curso de [Análisis de datos de RNA-Seq ](https://github.com/EveliaCoss/RNAseq_classFEB2024).
 
 ---
@@ -421,7 +421,7 @@ Ejercicio tomado de [aqui](https://utrechtuniversity.github.io/workshop-computat
 ]]]
 
 ---
-## NOTAS
+## NOTAS 💜 
 
 > Usa el mismo estilo que en el paquete [`roxygen2`](https://github.com/r-lib/roxygen2). Generan un archivo RD que se lee en R en la seccion Help.
 
@@ -437,7 +437,7 @@ class: inverse, center, middle
 
 ---
 
-## Características de una vignette
+## Características de una vignette 📑
 
 - Debe mostrar un **flujo de análisis** explotando el **potencial** de tu paquete.
 - Implementa tantas **funciones de tu paquete como sea posible**, pero no es necesario que incluya todas.
@@ -469,47 +469,49 @@ library(ggplot2)
 
 # Pasos para crear un paquete
 
-Muy general, es un paquete para nosotros, por lo que solo funciona en nuestra compu.
+Muy general, vamos a crear un paquete para nosotros, por lo que, solo funciona en nuestra compu.
 
-## Paso 1:   
+- **Paso 1.** Almacenar cada funcion en `.R` y carpeta `R/` 📕 - [plot_volcano.R](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/R/plot_volcano.R)
 
+- **Paso 2.** Crear el paquete con `usethis::create_package("directorio completo")` 📁
 
+> Con esto:
+> - Generar el directorio vignettes en caso que no exista.
+> - Agregar dependencias en el archivo DESCRIPTION (por ejemplo, knitr necesario para construir viñetas dentro del paquete).
+> - Abrir un templado en formato .Rmd para comenzar a escribir la viñeta, que se va a guardar en vignettes/mi_vignette.Rmd
+> - Se va a crear un Rproject con el nombre de esta carpeta.
 
-
-
-Me ayudo mucho este [Video](https://www.youtube.com/watch?v=7ZgZ6qUKZvE&ab_channel=DaniMedi).
-
-
-Esta función tendrá tres efectos:
-
-- Generar el directorio vignettes en caso que no exista.
-- Agregar dependencias en el archivo DESCRIPTION (por ejemplo, knitr necesario para construir viñetas dentro del paquete).
-- Abrir un templado en formato .Rmd para comenzar a escribir la viñeta, que se va a guardar en vignettes/mi_vignette.Rmd
-
-> NOTA: Este codigo tiene conflictos cuando la carpeta tiene en su nombre espacios.
-
-
-.left[.footnote[.black[
-[Documentacion](https://lcolladotor.github.io/biocthis/articles/biocthis.html#use_bioc_vignette); [Curso de Joselyn Cristina Chávez Fuentes](https://comunidadbioinfo.github.io/cdsb2023/creaci%C3%B3n-de-vi%C3%B1etas.html)
-]]]
-
+```{r, eval=FALSE}
+usethis::create_package("C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Github_notes/EveCoss_website/BestPractices/practica/")
+```
 
 ---
 
-# Veamos un ejemplo
+# Pasos para crear un paquete
 
-Busca la viñeta del paquete regutools en la página de Bioconductor https://bioconductor.org/packages/release/bioc/html/regutools.html
+- **Paso 3.** Cargar los vignette empleando `devtools::document()` 📑
+
+```{r, eval=FALSE}
+# Verificar la informacion que teniamos
+?plot_volcano
+```
 
 .left[.footnote[.black[
-[Curso de Joselyn Cristina Chávez Fuentes](https://comunidadbioinfo.github.io/cdsb2023/creaci%C3%B3n-de-vi%C3%B1etas.html)
+[Curso de Joselyn Cristina Chávez Fuentes](https://comunidadbioinfo.github.io/cdsb2023/creaci%C3%B3n-de-vi%C3%B1etas.html); Me ayudo mucho este [Video](https://www.youtube.com/watch?v=7ZgZ6qUKZvE&ab_channel=DaniMedi).
 ]]]
+
+- **Paso 4.** Vamos a verificar que el paquete se a creado ✏️
+
+Vamos a usar estos datos [DE_Treated_vs_control.csv](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/DEG_example/DE_Treated_vs_control.csv) generados a partir del script [DEG_example.R](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/DEG_example/DEG_example.R). 
+
+Emplearemos el script [Empleo_funciones_ejemplo.R](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/Empleo_funciones_ejemplo.R). 
 
 ---
 
 #### Otros materiales interesantes
 
 .pull-left[
-### Diseño de pruebas
+### Diseño de pruebas ✒️
 
 - [testthat](https://testthat.r-lib.org/)
 
@@ -523,7 +525,7 @@ Busca la viñeta del paquete regutools en la página de Bioconductor https://bio
 
 .pull-right[
 
-### Creando paquetes en R
+### Creando paquetes en R 📁
 
 - [Leonardo Collado](https://github.com/lcolladotor)
 - paquete [biocthis](https://github.com/lcolladotor/biocthis)
