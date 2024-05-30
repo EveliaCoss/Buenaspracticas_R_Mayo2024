@@ -7,7 +7,7 @@ Fecha: 1 de Junio 2024
 
 - Presentacion
 
-###  Pasos para crear un paquete 
+##  Pasos para crear un paquete 
 
 Muy general, vamos a crear un paquete para nosotros, por lo que, solo funciona en nuestra compu.
 
@@ -40,7 +40,7 @@ NOTA: Los datos de Expresion diferencial utilizados provienen de [aqui](https://
     - Script de la funcion: [plot_volcano.R](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/R/plot_volcano.R).
     - Script final: [Empleo_funciones_ejemplo.R](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/Empleo_funciones_ejemplo.R).
  
-#### Referencias
+### Referencias
 
 [Curso de Joselyn Cristina Chávez Fuentes](https://comunidadbioinfo.github.io/cdsb2023/creaci%C3%B3n-de-vi%C3%B1etas.html); Me ayudo mucho este [Video](https://www.youtube.com/watch?v=7ZgZ6qUKZvE&ab_channel=DaniMedi)
 
