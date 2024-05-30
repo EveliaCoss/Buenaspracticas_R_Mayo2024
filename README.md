@@ -3,11 +3,41 @@ Buenas practicas en R y creacion de paquetes en R, minicurso de 1 hora, en el [H
 
 Fecha: 1 de Junio 2024
 
-## Contenido 📌
+Notas personales recabadas a partir de los tutoriales y ejemplos 😊. Espero que les funcione 💜
+
+## Materiales informativos
+
+- [Curso de Joselyn Cristina Chávez Fuentes](https://comunidadbioinfo.github.io/cdsb2023/creaci%C3%B3n-de-vi%C3%B1etas.html)
+- Me ayudo mucho este [Video](https://www.youtube.com/watch?v=7ZgZ6qUKZvE&ab_channel=DaniMedi)
+- [Documentación de funciones de Andrés Arredondo Cruz](https://comunidadbioinfo.github.io/cdsb2023/documentaci%C3%B3n-de-funciones.html)
+
+💪 Estuve muy intensa viendo su codigo. Muchas gracias por tenerlos publico.
+
+## Mi presentacion 😏
 
 - [Presentacion](https://eveliacoss.github.io/Buenaspracticas_R_Mayo2024/BestPractices/BestPractices_Bioinfo.html)
 
-##  Pasos para crear un paquete 
+## Paquetes 📕
+
+- [devtools](https://www.r-project.org/nosvn/pandoc/devtools.html) - Instalacion de paquetes de Github
+- [roxygen2](https://github.com/r-lib/roxygen2)
+- [docstring](https://cran.r-project.org/web/packages/docstring/vignettes/docstring_intro.html)
+- [dplyr](https://dplyr.tidyverse.org/)
+- [usethis](https://usethis.r-lib.org/)
+- [ggplot2](https://ggplot2.tidyverse.org/)
+
+### Instalacion de paquetes
+
+```
+install.packages("devtools")
+install.packages("roxygen2")
+install.packages("docstring")
+install.packages("dplyr")
+install.packages("usethis")
+install.packages("ggplot2")
+```
+
+##  Pasos para crear un paquete 📌
 
 Muy general, vamos a crear un paquete para nosotros, por lo que, solo funciona en nuestra compu.
 
@@ -39,8 +69,4 @@ NOTA: Los datos de Expresion diferencial utilizados provienen de [aqui](https://
     - data: Vamos a usar estos datos [DE_Treated_vs_control.csv](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/DEG_example/DE_Treated_vs_control.csv) generados a partir del script [DEG_example.R](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/DEG_example/DEG_example.R). 
     - Script de la funcion: [plot_volcano.R](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/R/plot_volcano.R).
     - Script final: [Empleo_funciones_ejemplo.R](https://github.com/EveliaCoss/Buenaspracticas_R_Mayo2024/blob/main/BestPractices/practica/Empleo_funciones_ejemplo.R).
- 
-### Referencias
-
-[Curso de Joselyn Cristina Chávez Fuentes](https://comunidadbioinfo.github.io/cdsb2023/creaci%C3%B3n-de-vi%C3%B1etas.html); Me ayudo mucho este [Video](https://www.youtube.com/watch?v=7ZgZ6qUKZvE&ab_channel=DaniMedi)
 
