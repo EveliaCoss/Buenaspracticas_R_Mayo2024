@@ -20,11 +20,11 @@ Notas personales recabadas a partir de los tutoriales y ejemplos 😊. Espero qu
 ## Paquetes 📕
 
 - [devtools](https://www.r-project.org/nosvn/pandoc/devtools.html) - Instalacion de paquetes de Github
-- [roxygen2](https://github.com/r-lib/roxygen2)
-- [docstring](https://cran.r-project.org/web/packages/docstring/vignettes/docstring_intro.html)
-- [dplyr](https://dplyr.tidyverse.org/)
-- [usethis](https://usethis.r-lib.org/)
-- [ggplot2](https://ggplot2.tidyverse.org/)
+- [roxygen2](https://github.com/r-lib/roxygen2) - Documentacion de funciones
+- [docstring](https://cran.r-project.org/web/packages/docstring/vignettes/docstring_intro.html) - Documentacion de funciones
+- [dplyr](https://dplyr.tidyverse.org/) - Manipulacion de datos
+- [usethis](https://usethis.r-lib.org/) - Crear paquetes
+- [ggplot2](https://ggplot2.tidyverse.org/) - Visualizacion grafica
 
 ### Instalación de paquetes
 
