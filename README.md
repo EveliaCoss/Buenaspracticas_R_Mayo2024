@@ -5,7 +5,7 @@ Fecha: 1 de Junio 2024
 
 ## Contenido 📌
 
-- Presentacion
+- [Presentacion](https://eveliacoss.github.io/Buenaspracticas_R_Mayo2024/BestPractices/BestPractices_Bioinfo.html)
 
 ##  Pasos para crear un paquete 
 
