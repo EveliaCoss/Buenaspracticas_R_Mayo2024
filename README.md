@@ -13,7 +13,7 @@ Notas personales recabadas a partir de los tutoriales y ejemplos 😊. Espero qu
 
 💪 Estuve muy intensa viendo su codigo. Muchas gracias por tenerlos publico.
 
-## Mi presentacion 😏
+## Mi presentación 😏
 
 - [Presentacion](https://eveliacoss.github.io/Buenaspracticas_R_Mayo2024/BestPractices/BestPractices_Bioinfo.html)
 
@@ -26,7 +26,7 @@ Notas personales recabadas a partir de los tutoriales y ejemplos 😊. Espero qu
 - [usethis](https://usethis.r-lib.org/)
 - [ggplot2](https://ggplot2.tidyverse.org/)
 
-### Instalacion de paquetes
+### Instalación de paquetes
 
 ```
 install.packages("devtools")
@@ -88,7 +88,7 @@ usethis::create_package("C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Github_n
 
 - **Paso 3.** Cargar los vignette empleando `devtools::document()` 📑
 
-Verificar la informacion que teniamos
+Verificar la información que teniamos
 
 ```
 ?plot_volcano
