@@ -37,6 +37,38 @@ install.packages("usethis")
 install.packages("ggplot2")
 ```
 
+## Pasos para escribir un buen software
+
+1) Análisis del problema / Definir el problema
+
+2) Diseño del algoritmo / Diseño del programa
+
+3) Codificación / Escribir el código
+
+4) Compilación y ejecución del programa
+
+5) Verificación / Realizar pruebas
+
+6) Depuración / Detectar los errores y corregirlos
+
+> Programacion defensiva
+
+7) Documentación
+
+## Puntos claves para buenas practicas en bioinfo ⭐
+
+1) Escriba programas para personas, no para computadoras (Documenta qué hace y por qué). - Se coherente en la nomenclatura, indentación y otros aspectos del estilo.
+
+2) Divide los programas en *funciones cortas de un solo propósito. 💻 📚
+
+3) No repitas tu código. Crea pasos reproducibles o que se repitan por si solas. ➰
+
+4) Planifique los errores (Programacion defensiva) 🚩
+
+5) Optimice el software sólo después de que funcione correctamente. - Si funciona no lo modifiques, simplificalo.
+
+6) Colaborar - Busque siempre bibliotecas de software bien mantenidas que hagan lo que necesita. 👥
+
 ##  Pasos para crear un paquete 📌
 
 Muy general, vamos a crear un paquete para nosotros, por lo que, solo funciona en nuestra compu.
